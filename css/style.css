@@ -3,3 +3,72 @@
     padding: 0 ;
     box-sizing: border-box ;
 }
+
+.clearfix::after {
+    content: "" ;
+    display: table ;
+    clear: both ;
+}
+
+.larghezza-centrale {
+    width: 80% ;
+    margin: 0 auto ;
+}
+
+header {
+    width: 100% ;
+    background-color: #3161e0 ;
+}
+
+
+
+.float {
+    float: left ;
+}
+
+nav {
+    height: 80px ;
+    line-height: 80px ;
+}
+
+#logo-nav {
+    background-image: url(../img/logo.svg) ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+    width: 15% ;
+    height: 80px ;
+}
+
+#link-nav {
+    width: 60% ;
+    height: 80px ;
+    text-align: center ;
+
+}
+
+#link-nav ul {
+    list-style: none ;
+}
+
+#link-nav li {
+    display: inline ;
+}
+
+li a {
+    text-decoration: none ;
+    padding: 0 0.5em ;
+    color: white ;
+}
+
+#login-nav {
+    width: 15% ;
+    height: 80px ;
+}
+
+.link-bianco-piccolo {
+    background-color: white ;
+    padding: 0.3em 0.5em ;
+    border-radius: 0.8em ;
+    font-size: 0.8em;
+}
+
