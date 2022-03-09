@@ -17,7 +17,7 @@
 
 header {
     width: 100% ;
-    background-color: #3161e0 ;
+    background-color: #255ee9 ;
 }
 
 
@@ -63,12 +63,58 @@ li a {
 #login-nav {
     width: 15% ;
     height: 80px ;
+    text-align: right ;
 }
 
 .link-bianco-piccolo {
     background-color: white ;
     padding: 0.3em 0.5em ;
     border-radius: 0.8em ;
-    font-size: 0.8em;
+    font-size: 0.8em ;
+    color: black ;
 }
+
+.link-bianco-grande {
+    background-color: white ;
+    padding: 0.5em 0.7em ;
+    border-radius: 1em ;
+    font-size: 1em ;
+    color: black ;
+    margin: 0.5em 0.5em ;
+
+}
+
+.link-nero-grande {
+    background-color: black ;
+    padding: 0.5em 0.7em ;
+    border-radius: 1em ;
+    font-size: 1em ;
+    color: white ;
+    margin: 0.5em 0.5em ;
+
+}
+
+.banner {
+    width: 100% ;
+    height: 65vh ;
+    background-image: url(../img/jumbo.png) ;
+    background-size: cover ;
+    position: relative ;
+
+}
+
+.claim {
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+    color: white ;
+    text-align: center ;
+    padding: 1em ;
+}
+
+
+
+
+
 
